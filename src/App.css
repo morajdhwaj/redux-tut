@@ -28,6 +28,26 @@
   color: #61dafb;
 }
 
+/*  */
+.bg button{
+  background-color: red;
+}
+
+.btn-wrapper button {
+  background-color: red;
+  border: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  color: white;
+}
+
+.img-wrapper img {
+  width: 100px;
+
+
+}
+/*  */
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
