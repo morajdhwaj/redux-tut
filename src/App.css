@@ -29,8 +29,9 @@
 }
 
 /*  */
-.bg button{
-  background-color: red;
+
+.bg {
+  display: flex;
 }
 
 .btn-wrapper button {
@@ -39,13 +40,34 @@
   padding: 10px;
   border-radius: 4px;
   color: white;
+  box-shadow: black 0px 1px 5px;
+}
+
+.cart-wrapper {
+  height: 100px;
+  width: 500px;
+  border: 1px solid #ccc;
+  margin-left: 10%;
+}
+.cartimage{
+  width: 100px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
 }
 
 .img-wrapper img {
-  width: 100px;
-
-
+  width: 80px;
+  margin-top: -10px;
 }
+ .item{
+  float: left;
+  display: inline-block;
+  width: 120px;
+  height: 20px;
+  padding: 20px;
+ }
+
 /*  */
 
 @keyframes App-logo-spin {
