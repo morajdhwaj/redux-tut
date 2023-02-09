@@ -49,12 +49,7 @@
   border: 1px solid #ccc;
   margin-left: 10%;
 }
-.cartimage{
-  width: 100px;
-  position: absolute;
-  right: 1%;
-  top: 1%;
-}
+
 
 .img-wrapper img {
   width: 80px;
@@ -68,6 +63,26 @@
   padding: 20px;
  }
 
+
+ .add-to-cart img {
+  width: 100px;
+  position: absolute;
+  right: 1%;
+  top: 1%;
+ }
+
+.cart-count {
+  position: absolute;
+  right: 32px;
+  top: 25px;
+  Z-INDEX: 1;
+  height: 14px;
+  width: 14px;
+  padding: 7px;
+  background-color: red;
+  color: white;
+  border-radius: 50%;
+}
 /*  */
 
 @keyframes App-logo-spin {
